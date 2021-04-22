@@ -10,10 +10,9 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 )
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>Hello {message.from_user.first_name}!
-I am 𝗖𝗵𝗼𝗰𝗼𝗹𝗮𝘁𝘆𝗤𝘂𝗲𝗲𝗻𝗕𝗼𝘁 VC Music Player, an open-source bot that lets you play music in your Telegram groups.
-Maintained by @sangramghangale ❤
-For source code Join our support group @TeLeTiPsOfficialOnTopicChat.
+        f"""<b>Salam {message.from_user.first_name}!
+Mən @tag1y3v tərəfindən yaradılmış 𝐊 𝐇 𝐀 𝐍    𝐌 𝐔 𝐒 𝐈 𝐂    𝐁 𝐎 𝐓 musiqi botuyam ♥️
+Məi qrupunuza əlavə edərək musiqilərdən zövq alın.
 Use the buttons below to know more about me.
  </b>""",
       
@@ -27,16 +26,8 @@ Use the buttons below to know more about me.
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 Group", url="https://t.me/TeLeTiPsOfficialOnTopicChat"
+                        "👥 Group", url="https://t.me/balw0ysohbet"
                     ),
-                    InlineKeyboardButton(
-                        "💾 Source code", url="https://github.com/sangramghangale/VCPlayerBot"
-                    )
-                ],
-                [
-                    InlineKeyboardButton(
-                        "Join Channel", url="https://t.me/TeLeTiPsOfficialchannel"
-                    )
                 ]
             ]
         )
@@ -49,7 +40,7 @@ Use the buttons below to know more about me.
 )
 async def start(client: Client, message: Message):
     await message.reply_text(
-        "💁🏻‍♂️ Do you want to search for a YouTube video?",
+        "💁🏻‍♂️ YouTube videosunu axtarmaq istəyirsiniz?",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
