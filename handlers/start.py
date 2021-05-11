@@ -11,9 +11,9 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>Salam {message.from_user.first_name}!
-Mən @tag1y3v tərəfindən yaradılmış 𝐊 𝐇 𝐀 𝐍    𝐌 𝐔 𝐒 𝐈 𝐂    𝐁 𝐎 𝐓 musiqi botuyam ♥️
-Məi qrupunuza əlavə edərək musiqilərdən zövq alın.
-Use the buttons below to know more about me.
+Mən @tag1y3v tərəfindən yaradılmış 𝐊𝐇𝐀𝐍  𝐌𝐔𝐒𝐈𝐂  𝐁𝐎𝐓 musiqi botuyam ♥️
+Məi qrupunuza əlavə edərək adminlik verin və playerim olan @KhanMusicAssistant -ı qrupa əlavə edərək musiqilərdən zövq alın.
+Haqqımda daha çox məlumat əldə etmək üçün aşağıdakı düymələrdən istifadə edin.
  </b>""",
       
        
@@ -21,12 +21,22 @@ Use the buttons below to know more about me.
             [
                 [
                     InlineKeyboardButton(
-                        "Command", url="https://telegra.ph/%F0%9D%97%96%F0%9D%97%B5%F0%9D%97%BC%F0%9D%97%B0%F0%9D%97%BC%F0%9D%97%B9%F0%9D%97%AE%F0%9D%98%81%F0%9D%98%86%F0%9D%97%A4%F0%9D%98%82%F0%9D%97%B2%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%95%F0%9D%97%BC%F0%9D%98%81-04-03",
+                        "Sahibim✔️", url="https://t.me/tag1y3v",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 Group", url="https://t.me/balw0ysohbet"
+                        "Əmrlər✔️", url="https://telegra.ph/Khan-MusicBot-05-11",
+                    )
+                ],
+               [
+                    InlineKeyboardButton(
+                        "📺Rəsmi Kanal✔️", url="https://t.me/KhanVlog",
+                    )
+                ],
+                [
+                    InlineKeyboardButton(
+                        "👥 Rəsmi Qrup", url="https://t.me/KhanChat"
                     ),
                 ]
             ]
