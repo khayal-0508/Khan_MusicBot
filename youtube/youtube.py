@@ -18,7 +18,7 @@ def download(url: str) -> str:
 
     if duration > DURATION_LIMIT:
         raise DurationLimitError(
-            f"✯𝗖𝗵𝗼𝗰𝗼𝗹𝗮𝘁𝘆𝗤𝘂𝗲𝗲𝗻𝗕𝗼𝘁✯=Videos longer than {DURATION_LIMIT} minute(s) aren't allowed, the provided video is {duration} minute(s)"
+            f"✯𝗞𝗵𝗮𝗻 𝗠𝘂𝘀𝗶𝗰 𝗕𝗼𝘁✯= {DURATION_LIMIT} dəqiqədən böyük fayllara icazə verilmir, seçdiyiniz musiqi faylı {duration} dəqiqədir"
         )
 
     ydl.download([url])
